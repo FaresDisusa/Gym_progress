@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+    background-color: black;
+    padding-bottom: 10px;
+}
+.logo_div{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 300px;
+}
+.nav_div {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #292a2e;
+    border-radius: 20px; 
+    padding: 10px; 
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.nav a:hover {
+    color: #97979b;
+    box-shadow: 0 6px 10px -4px rgba(54, 54, 54, 0.2), /* ombre en bas */
+                6px 0px 10px -4px rgba(56, 56, 56, 0.2), /* ombre à droite */
+                -6px 0px 10px -4px rgba(255, 255, 255, 0.2); /* ombre à gauche */
+}
+.nav li {
+    margin: 0 25px; /* Marge entre les éléments */
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #58585a; /* Couleur du texte */
+    padding: 8px 16px; /* Espacement interne */
+    transition: color 0.3s ease;
+    position: relative;
+    border-radius: 20px;
+}
+nav_menu:hover {
+    box-shadow: 0 6px 10px -4px rgba(255, 255, 255, 0.2), /* Ombre en bas */
+    12px 0px 15px -6px rgba(255, 255, 255, 0.2), /* Ombre à droite (augmenté) */
+    -12px 0px 15px -6px rgba(255, 255, 255, 0.2); /* ombre à gauche */
+
+}
+body{
+	background-color: #1e1e1e;
+}
+.title_home {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.pic_ngu{
+    width: 630px;
+}
+.ngu_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

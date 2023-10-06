@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GYM Progress</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo_div"><a href="../../main/index.html"><img src="./Pictures/logo.png" alt="Logo of the website" class="logo"></a></div>
+            <div class="nav_div">  
+                <nav class="nav">
+                    <ul>
+                        <li><a href="../index.html" class="nav_menu" id="planing">Planning</a></li>
+                        <li><a href="#exercices"class="nav_menu">Exercices</a></li>
+                        <li><a href="#progress"class="nav_menu">Progress</a></li>
+                        <li><a href="../../Profils/index.html"class="nav_menu">Your Profil</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>   
+        <main>
+            <div class="div_edits">
+                <a href="javascript:history.go(-1)"><img src="./Pictures/return.png" alt="return button" class="return"></a>
+                <label for="groupChoice">Choice of Muscle Groups : </label>
+                <select id="groupChoice">
+                    <option value="0">No Muscle Group</option>
+                    <option value="1">One Muscle Group</option>
+                    <option value="2">Two Muscle Group</option>
+                    <option value="3">Three Muscle Group</option>
+                </select>
+                <label for="muscleChoice">Choice of Muscles : </label>
+                <select id="muscleChoice">
+                </select>
+                <button id="changeMenuText">Save the edits</button>
+            </div>
+        </main>
+    </body>
+    <script src="./main.js"></script>
+</html>

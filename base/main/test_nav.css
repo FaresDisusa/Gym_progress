@@ -1,0 +1,8 @@
+.nav a:focus,
+.nav a:active {
+    color: #3498db; /* Nouvelle couleur lorsqu'actif */
+    outline: none; /* Supprime la bordure par défaut autour de l'élément */
+    border: 2px solid #3498db; /* Bordure solide */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); /* Ombre en haut, en bas, à gauche et à droite */
+}

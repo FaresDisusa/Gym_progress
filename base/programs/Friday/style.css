@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+    background-color: black;
+    padding-bottom: 10px;
+}
+.logo_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 300px;
+}
+.nav_div {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #292a2e;
+    border-radius: 20px; 
+    padding: 10px; 
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.nav a:hover {
+    color: #97979b;
+    box-shadow: 0 6px 10px -4px rgba(54, 54, 54, 0.2), /* louta */
+                6px 0px 10px -4px rgba(56, 56, 56, 0.2), /* yimin */
+                -6px 0px 10px -4px rgba(255, 255, 255, 0.2); /* yisar */
+}
+.nav li {
+    margin: 0 25px; 
+}
+
+.nav a {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #58585a; 
+    padding: 8px 16px; 
+    transition: color 0.3s ease;
+    position: relative;
+    border-radius: 20px;
+}
+body{
+	background-color: #1e1e1e;
+}
+.nav a#planing {
+    background-color: rgba(92, 92, 92, 0.2); 
+    color: #ff1e1e; 
+}
+.return{
+    width: 50px;
+    margin-left: 15px;
+}
+.div_edits{
+    padding-top: 15px;
+}
